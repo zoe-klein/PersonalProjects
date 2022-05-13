@@ -1,0 +1,93 @@
+/*
+color scheme website:
+https://www.schemecolor.com/pink-grey-pastels.php
+*/
+
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(65, 64, 64, 0.3);
+}
+
+/* can use with id="hiding" */
+#heading {
+    background-color: #FFD9E4;
+    text-align: center;
+}
+
+/* changes all the html, specifically the background */
+html {
+    background-color: #F5CBDD(180, 23%, 85%);
+    background-image: -webkit-linear-gradient(65deg, #FFD9E4 50%, #EBEBEB 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+.item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+    padding-left: 20px;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+}
+
+.item-style {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myList {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+    padding-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+.addBtn {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #FFD9E4;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.addBtn-1:hover,
+.addBtn-1:focus {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
+}
+
+.list-item {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

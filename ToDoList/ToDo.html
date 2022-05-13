@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!--allows other char to be displayed besides engl-->
+  <!--links the css file-->
+  <link rel="stylesheet" href="styles.css">
+  <!--link the js file-->
+  <script src="app.js"></script>
+
+  <title>To Do List</title>
+
+</head>
+    
+<body>
+  <div>
+    
+    <!--header-->
+    <div class="box" id="heading">
+      <h1 style="color:black"> To Do List </h1>
+    </div> <!--end div id heading-->
+
+    <!-- code for example item
+    <div class="box">
+        <div class="item" id="example">
+          <input type="checkbox">
+            <label class="item-style">
+              Study
+            </label>
+        </div>
+    </div>
+    -->
+
+      <div class="box">
+
+        <div id="myList">
+        
+        </div>
+
+        <div class="item">
+          <input type="text" name="input" id="input" placeholder="Add Task">  
+          <button type="submit" class="addBtn addBtn-1" onclick="addItem()"> + </button>
+        </div>
+
+    </div> <!--end div id myList-->
+  </div> <!--end BIG div-->
+  
+</body>
+</html>
